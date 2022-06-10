@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "636845684491",
+    "project_id": "unimint-46977",
+    "storage_bucket": "unimint-46977.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636845684491:android:da613653532260d630940e",
+        "android_client_info": {
+          "package_name": "com.example.unimint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636845684491-e85956e51s61604slt2mc97q162u406u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5ctejrK8gJHSYQ5ET7Y2Hp31ySd2ZSFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636845684491-e85956e51s61604slt2mc97q162u406u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

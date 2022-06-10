@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_box_background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textColor="@color/dark_blue"
+        android:text="Do you want to exit?"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:background="@drawable/blue_background"
+            android:textColor="@color/white"
+            android:text="NO"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:background="@drawable/blue_background"
+            android:text="YES"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            app:backgroundTint="@null"/>
+
+    </FrameLayout>
+
+</LinearLayout>
